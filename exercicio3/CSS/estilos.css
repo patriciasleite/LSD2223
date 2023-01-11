@@ -68,18 +68,115 @@ header .col-3 a:hover{
     float: left;
 }
 
-.highlights{
-    background: purple;
-    width: 100%;
-    height: 200px;
+.articles .center-articles{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+.articles .col-4,
+.articles .col-5,
+.articles .col-6{
+    width: 33.33%;
     float: left;
 }
 
-.latest-news{
-    background: grey;
-    width: 100%;
-    height: 250px;
+.articles .col-4 h2,
+.articles .col-6 h2{
+    color: #25A2C3;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.articles .col-6 h2{
+    text-align: left;
+}
+
+.center-articles .col-4 div,
+.center-articles .col-6 div{
+    width: 70%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.articles .col-6 div{
     float: left;
+}
+
+.center-articles .col-4 p{ 
+    text-align: justify;
+    color: #767d85;
+}
+
+.center-articles .col-5 .moldura{
+    width: 200px;
+    height: 200px;
+    background: grey;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.center-articles .col-5 .moldura img{
+    width: 100%;
+}
+
+.highlights{
+    background: #f6755e;
+    width: 100%;
+    height: 200px;
+    float: left;
+    color: #ffff;
+    text-align: center;
+}
+
+.highlights h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlights span{
+    font-weight: bold;
+}
+
+.highlights p:nth-child(2){
+    font-style: italic;
+}
+
+.lastest-news{
+        width: 100%;
+        height: 250px;
+        float: left;
+}
+    
+.center-latest-news{
+    width: 70%;
+    margin: 0 auto;
+    background: greenyellow;
+}
+
+.center-latest-news div{
+    width: calc(33.33% - 22px);
+    float: left;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.center-latest-news div img{
+    width: 100%;
+}
+
+.center-latest-news div h3{
+    padding-left: 5px;
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+.center-latest-news div p{
+    padding: 20px;
+    color: #767d85;
 }
 
 footer{
@@ -112,9 +209,11 @@ footer{
     float: left;
 }
 
-h1{
+.hero-content h1{
     text-align: center;
-    color: #25A2C3
+    color: #25A2C3;
+    padding: 10px 0;
+    font-size: 22px;
 }
 
 .hero-content{
@@ -126,7 +225,14 @@ h1{
     float: left;
 }
 
-button{
+.hero-content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-content button{
     background-color:#f6755e;
     color: white;
     border: none;
@@ -134,3 +240,4 @@ button{
     height: 40px;
     border-radius: 4px;
 }
+
