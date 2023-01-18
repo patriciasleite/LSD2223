@@ -189,7 +189,6 @@ footer{
 .col-1{
     width: 20%;
     height: 44px;
-    background: green;
     float: left;
 }
 
@@ -239,5 +238,11 @@ footer{
     width: 150px;
     height: 40px;
     border-radius: 4px;
+}
+
+.icon-menu-principal{
+    font-size: 30px;
+    color: grey;
+    
 }
 
