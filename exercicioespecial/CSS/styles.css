@@ -1,0 +1,116 @@
+body{
+    font-family: 'Arial';
+    margin: 10px;
+    padding: 50px;
+}
+
+.wrapper{
+    background: yellow;
+    width: 100%;
+}
+
+header{
+    background: blue;
+    width: 100%;
+}
+
+.hero{
+    background-image: url('../images/light_bulb.jpg');
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    float: left;
+    color: white;
+}
+
+.hero-content{
+    margin-left: 10%;
+}
+
+.hero-content button{
+    background: orange;
+    color: white;
+}
+
+.content-col1{
+    background: blueviolet;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+}
+
+.content-col1 h2{
+    color: orange;
+}
+
+.images-col2{
+    background: green;
+    width: 100%;
+    height: 250px;
+}
+
+.images-col2 div{
+    float: left;
+    height: 200px;
+    width: calc(33.33% - 22px);
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+.images-col2 .image-1{
+    background-image: url('../images/mung_beans.jpg');
+}
+
+.images-col2 .image-2{
+    background-image: url('../images/coffee_beans_1.jpg');
+
+}
+
+.images-col2 .image-3{
+    background-image: url('../images/grapes.jpg');
+
+}
+
+.products-menu{
+    background: pink;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: grey;
+}
+
+.products-menu h2{
+    color: orange;
+}
+
+.products-menu div{
+    margin: 10px;
+    border: 1px solid black;
+    width: calc(25% - 22px);
+    float: left;
+}
+
+.products-menu div img{
+    width: 100%;
+}
+
+.products-menu  .botao-add{
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+
+.content-col3{
+    background: brown;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: lightgray;
+}
+
+.content-col3 h2{
+    color: orange;
+}
