@@ -38,6 +38,10 @@ body{
     height: 100%;
 }
 
+#items-mobile{
+    display: none;
+}
+
 /* SE O ECRA NO MAXIMO TIVER 1200PX*/
 @media screen and (max-width:1200px) {
     
