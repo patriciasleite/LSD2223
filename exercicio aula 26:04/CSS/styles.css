@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea{
+    width: 700px;
+    height: 300px;
+}
+
+.barra-progresso{
+    height: 50px;
+}
+
+.barra-verde{
+    width: 25px;
+    background-color: green;
+}
+
+.barra-amarela{
+    width: 50px;
+    background-color: yellow;
+}
+
+.barra-laranja{
+    width: 75px;
+    background-color: orange;
+}
+
+.barra-vermelha{
+    width: 100px;
+    background-color: red;
+}
