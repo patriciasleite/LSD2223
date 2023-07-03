@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <div id="blur-around"></div>
+<p>Works over any content</p>
+<img src="https://picsum.photos/250/250">
+<img src="https://picsum.photos/360/200">
+<script>
+    const blur_elem = document.getElementById( "blur-around" );
+document.onmousemove = (evt) => {
+  blur_elem.style.transform = `translate(${evt.clientX}px, ${evt.clientY}px)`;
+};
+</script>
+    
+</body>
+</html>
